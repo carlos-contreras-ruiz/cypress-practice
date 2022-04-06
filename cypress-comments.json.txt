@@ -1,0 +1,15 @@
+{
+	"baseUrl": "Some base URL",
+	"watchForFileChanges": false, // we will need to up and down for every change
+	"viewportWidth": 1000,
+	"viewportHeight": 600,
+	"waitForAnimations": true, //recomended
+	"animationDistanceTreshold": 20, //Pixeles que se mueven para ser considerados una animacion
+	"defaultCommandTimeout": 3000,
+	"execTimeout": 60000,
+	"pageLoadTimeout": 3000,
+	"requestTimeout": 15000,
+	"responseTimeout": 15000,
+	"video": false,
+	"failOnStatusCode": false //EN true lanzara un error si la respuesta es diferente a 20*
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cypress-basics",
+  "version": "1.0.0",
+  "description": "Cypress basics",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.0"
+  }
+}
